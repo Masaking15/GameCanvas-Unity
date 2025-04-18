@@ -11,7 +11,8 @@ using UnityEngine.InputSystem;
 public sealed class Game : GameBase
 {
     // 変数の宣言
-    int sec = 0;
+    int time = 600;
+    int score = 0;
 
     /// <summary>
     /// 初期化処理
